@@ -1,0 +1,3 @@
+git fetch后，查看其他人员的修改记录
+git difftool origin
+之后可以进入图形化的 对比界面
