@@ -18,3 +18,9 @@ git difftool origin
 错误解析：出现错误的主要原因是github中的README.md文件不在本地代码目录中。可以通过如下命令进行代码合并【注：pull=fetch+merge]
 git pull --rebase origin master
 7.此时再执行语句 git push -u origin master即可完成代码上传到github
+
+git rebase --abort 退出rebase 状态
+git fetch --all 获取所有远程端
+git reset --hard origin/master 回退到远程master最新版本
+git pull 更新最新代码
+
