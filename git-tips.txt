@@ -4,6 +4,7 @@ git difftool origin
 之后可以进入图形化的 对比界面
 
 
+
 注：我事先在github上建好了文件夹，安装好git后，在本地项目所在的目录，新建一个 git bash
 1 git init()  //初始化本地库
 2.git add .   //使用命令 git add .添加到暂存区里面去，不要忘记后面的小数点“.”，意为添加文件夹下的所有文件
